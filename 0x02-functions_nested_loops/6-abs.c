@@ -4,12 +4,12 @@
  *_abs - Check main
  * @r: An integr input
  * Description: This function returns absolute value of a number
- * Return: Absolute value of number x
+ * Return: Absolute value of number r
  */
-int _abs(int x)
+int _abs(int r)
 {
-	if (x >= 0)
-		return (x);
+	if (r >= 0)
+		return (r);
 	else
-		return (x * -1);
+		return (r * -1);
 }
